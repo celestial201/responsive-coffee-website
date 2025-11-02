@@ -19,8 +19,6 @@ A fully responsive and visually appealing coffee website built with **HTML, CSS,
 ![Hero Section](images/coffee-hero-section.png)  
 *Hero section with responsive design*  
 
-![Menu Section](images/coffee-menu-section.png)  
-*Coffee menu showcase*  
 
 ---
 
