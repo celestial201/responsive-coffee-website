@@ -21,12 +21,12 @@
 
       <ul class="nav-menu">
         <button id="menu-close-button" class="fas fa-times" aria-label="Close menu"></button>
-        <li class="nav-item"><a href="#" class="nav-link">Home</a></li>
-        <li class="nav-item"><a href="#" class="nav-link">About</a></li>
-        <li class="nav-item"><a href="#" class="nav-link">Menu</a></li>
-        <li class="nav-item"><a href="#" class="nav-link">Testimonial</a></li>
-        <li class="nav-item"><a href="#" class="nav-link">Gallery</a></li>
-        <li class="nav-item"><a href="#" class="nav-link">Contact</a></li>
+        <li class="nav-item"><a href="#hero" class="nav-link">Home</a></li>
+        <li class="nav-item"><a href="#about" class="nav-link">About</a></li>
+        <li class="nav-item"><a href="#menu" class="nav-link">Menu</a></li>
+        <li class="nav-item"><a href="#testimonial" class="nav-link">Testimonial</a></li>
+        <li class="nav-item"><a href="#gallery" class="nav-link">Gallery</a></li>
+        <li class="nav-item"><a href="#contact" class="nav-link">Contact</a></li>
       </ul>
 
       <button id="menu-open-button" class="fas fa-bars" aria-label="Open menu"></button>
@@ -35,7 +35,7 @@
 
   <!-- ====== Hero Section ====== -->
   <main>
-    <section class="hero-section">
+    <section id="hero" class="hero-section">
       <div class="section-content hero-flex">
         <div class="hero-details">
           <h2 class="title">Brewed to Perfection</h2>
@@ -45,7 +45,6 @@
             Discover rich aromas, smooth textures, and the perfect roast that fuels your spirit.
             Sit back, relax, and let your day flow like a freshly brewed espresso.
           </p>
-
           <div class="buttons">
             <a href="#" class="button order-now">Order Now</a>
             <a href="#" class="button contact-us">Contact Us</a>
@@ -57,31 +56,111 @@
         </div>
       </div>
     </section>
-      <!--About Section-->
- <section class="about-section">
-  <div class="section-content">
-    <div class="about-image-wrapper">
-      <img src="images/about-image.jpg" alt="About" class="about-image">
-    </div>
-    <div class="about-details">
-      <h2 class="section-title">About Us</h2>
-      <p class="text">
-        Welcome to Brew Haven Café, your cozy coffee escape tucked away at 12 Parkside Avenue, Kolkata, West Bengal – 700029. Here, the city’s buzz fades into the soothing aroma of freshly brewed beans and the gentle hum of laughter. Whether you’re catching up with friends, finding inspiration for your next big idea, or simply craving a quiet moment with your favorite latte, Brew Haven is your perfect spot. From sunrise espressos to late-evening cappuccinos, every cup here is crafted with care, comfort, and a sprinkle of love. Come sip, smile, and stay awhile. 🌿☕💫
-      </p>
-      <div class="social-link-list">
-        <a href="#" class="social-link"><i class="fa-brands fa-facebook"></i></a>
-        <a href="#" class="social-link" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
-        <a href="#" class="social-link" aria-label="Twitter"><i class="fa-brands fa-twitter"></i></a>
+
+    <!-- ====== About Section ====== -->
+    <section id="about" class="about-section">
+      <div class="section-content">
+        <div class="about-image-wrapper">
+          <img src="images/about-image.jpg" alt="About" class="about-image" />
+        </div>
+        <div class="about-details">
+          <h2 class="section-title">About Us</h2>
+          <p class="text">
+            Welcome to Brew Haven Café, your cozy coffee escape tucked away at 12 Parkside Avenue, Kolkata, West Bengal – 700029.
+            Here, the city’s buzz fades into the soothing aroma of freshly brewed beans and the gentle hum of laughter.
+            Whether you’re catching up with friends, finding inspiration for your next big idea, or simply craving a quiet moment with your favorite latte,
+            Brew Haven is your perfect spot. From sunrise espressos to late-evening cappuccinos, every cup here is crafted with care, comfort, and a sprinkle of love.
+            Come sip, smile, and stay awhile. 🌿☕💫
+          </p>
+          <div class="social-link-list">
+            <a href="#" class="social-link"><i class="fa-brands fa-facebook"></i></a>
+            <a href="#" class="social-link" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+            <a href="#" class="social-link" aria-label="Twitter"><i class="fa-brands fa-twitter"></i></a>
+          </div>
+        </div>
       </div>
-    </div>
-  </div>
-</section>
+    </section>
 
+    <!-- ====== Menu Section ====== -->
+    <section id="menu" class="menu-section">
+      <h2 class="section-title">Our Menu</h2>
+      <div class="section-content">
+        <ul class="menu-list">
+          <li class="menu-item">
+            <img src="images/hot-beverages.png" alt="Hot Beverages" class="menu-image" />
+            <h3 class="name">Hot Beverages</h3>
+            <p class="text">Enjoy rich espresso, creamy lattes, and handcrafted blends brewed to perfection for the ultimate coffee experience!</p>
+          </li>
+          <li class="menu-item">
+            <img src="images/desserts.png" alt="Desserts" class="menu-image" />
+            <h3 class="name">Desserts</h3>
+            <p class="text">Indulge in gooey brownies, creamy cheesecakes, and freshly baked treats crafted with love for every sweet tooth!</p>
+          </li>
+          <li class="menu-item">
+            <img src="images/burger-frenchfries.png" alt="Burgers and Fries" class="menu-image" />
+            <h3 class="name">Burgers & French Fries</h3>
+            <p class="text">Savor juicy burgers and crispy fries, perfectly paired for a bold, flavorful, and satisfying meal!</p>
+          </li>
+          <li class="menu-item">
+            <img src="images/cold-beverages.png" alt="Cold Beverages" class="menu-image" />
+            <h3 class="name">Cold Beverages</h3>
+            <p class="text">Refresh yourself with chilled cold brews, frappés, and iced drinks bursting with flavor and smoothness!</p>
+          </li>
+          <li class="menu-item">
+            <img src="images/refreshment.png" alt="Refreshments" class="menu-image" />
+            <h3 class="name">Refreshments</h3>
+            <p class="text">Stay refreshed with zesty lemonades, fruity mocktails, and sparkling chilled drinks perfect for any mood!</p>
+          </li>
+          <li class="menu-item">
+            <img src="images/special-combo.png" alt="Special Combo" class="menu-image" />
+            <h3 class="name">Special Combo</h3>
+            <p class="text">Enjoy our special combos with burgers, fries, drinks, and desserts crafted to satisfy every craving!</p>
+          </li>
+        </ul>
+      </div>
+    </section>
 
+    <!-- ====== Testimonial Section ====== -->
+    <section id="testimonial" class="testimonials-section">
+      <h2 class="section-title">Testimonials</h2>
+      <div class="section-content">
+        <ul class="testimonials-list">
+          <li class="testimonial">
+            <img src="images/user-1.jpg" alt="Photo of Sarha Negi" class="user-image">
+            <h3 class="name">Sarha Negi</h3>
+            <p class="feedback">"I absolutely love Brew Haven Café! The aroma of freshly brewed coffee hits you as soon as you walk in. Their cappuccino is perfectly creamy, and the ambiance is so cozy that I could spend hours here. Highly recommend ."</p>
+          </li>
+
+          <li class="testimonial">
+            <img src="images/user-2.jpg" alt="Photo of Rohan Mehta" class="user-image">
+            <h3 class="name">Rohan Mehta</h3>
+            <p class="feedback">"The cold brews at Brew Haven are simply amazing! Smooth, rich, and refreshing. The staff is friendly, and the café vibe is perfect for both work and catching up with friends. Can’t wait to try more of their menu!"</p>
+          </li>
+
+          <li class="testimonial">
+            <img src="images/user-3.jpg" alt="Photo of Anika Sharma" class="user-image">
+            <h3 class="name">Anika Sharma</h3>
+            <p class="feedback">"I love starting my mornings here. Their lattes are consistently perfect, and the desserts are irresistible. It’s the kind of place where every sip and bite feels like a treat. Highly recommended for coffee lovers!"</p>
+          </li>
+
+          <li class="testimonial">
+            <img src="images/user-4.jpg" alt="Photo of Vikram Singh" class="user-image">
+            <h3 class="name">Vikram Singh</h3>
+            <p class="feedback">"Brew Haven Café has quickly become my go-to spot! The ambience is relaxing, the service is excellent, and the food is delightful. The burger and fries combo is my favorite. Every visit leaves me wanting more!"</p>
+          </li>
+
+          <li class="testimonial">
+            <img src="images/user-5.jpg" alt="Photo of Meera Das" class="user-image">
+            <h3 class="name">Meera Das</h3>
+            <p class="feedback">"What I love most is the attention to detail in every cup. From the perfectly brewed espresso to the cozy setting, it’s always a wonderful experience. The special combos are a great deal too. Truly a must-visit café!"</p>
+          </li>
+        </ul>
+      </div>
+    </section>
 
   </main>
 
-  <!-- JS -->
+  <!-- ====== JavaScript ====== -->
   <script src="script.js"></script>
 </body>
 </html>
